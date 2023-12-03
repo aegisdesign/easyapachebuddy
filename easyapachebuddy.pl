@@ -428,6 +428,7 @@ sub check_os_support {
 				'CentOS',
 				'centos',
 				'CloudLinux Server',
+                'CloudLinux',
 				'cloudlinux',
 				'AlmaLinux Linux',
 				'AlmaLinux',
@@ -437,7 +438,7 @@ sub check_os_support {
 	my @ubuntu_os_list = ('Ubuntu', 'ubuntu');
 	my %uol = map { $_ => 1 } @ubuntu_os_list;
 	
-	my @redhat_os_list = ('Red Hat Enterprise Linux', 'redhat', 'CentOS Linux', 'AlmaLinux', 'Cloudlinux', 'CloudLinux Server');
+	my @redhat_os_list = ('Red Hat Enterprise Linux', 'redhat', 'CentOS Linux', 'AlmaLinux', 'Cloudlinux', 'CloudLinux', 'CloudLinux Server');
 	my %rol = map { $_ => 1 } @redhat_os_list;
 
 	# https://www.ubuntu.com/info/release-end-of-life
